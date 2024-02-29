@@ -5,7 +5,6 @@ import streamlit as st
 import altair as alt
 from scipy.stats import mannwhitneyu
 from statsmodels.stats.multicomp import pairwise_tukeyhsd
-from vega_datasets import data
 
 # Set page configuration
 st.set_page_config(
