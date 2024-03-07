@@ -124,7 +124,7 @@ with col_tukey:
 
     # Menampilkan tabel hasil uji Tukey HSD di Streamlit
     st.write('Hasil Uji Tukey HSD:')
-    st.dataframe(tukey_df.iloc[:, [7, 0, 9, 4, 5, 8,6]])
+    st.dataframe(tukey_df.iloc[:, [7, 8, 9, 4, 5, 6]])
 with col_box:
     df_altair = pd.concat([anime_original, anime_adaptasi])
     # Altair code for boxplot
